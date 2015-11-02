@@ -105,7 +105,7 @@ def turtleLetter(letter,tur):
         tur.fd(25)
 
         ## Ryan
-            elif letter == "G":
+    elif letter == "G":
 
         tur.pu()
         tur.forward(35)
@@ -164,7 +164,7 @@ def turtleLetter(letter,tur):
         tur.pd()
 	
 	## Hunter
-    elif letter == "Jx":
+    elif letter == "J":
 	tur.setheading(0)
 	tur.right(90)
 	tur.forward(40)
@@ -177,7 +177,7 @@ def turtleLetter(letter,tur):
 	tur.forward(10)
 	tur.pd()
 
-    elif letter == "Kx":
+    elif letter == "K":
 	tur.right(90)
 	tur.forward(60)
 	tur.right(180)
@@ -192,7 +192,7 @@ def turtleLetter(letter,tur):
 
 
 
-    elif letter == "Lx":
+    elif letter == "L":
 	tur.pu()
 	tur.forward(10)
 	tur.pd()
