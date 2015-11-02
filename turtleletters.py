@@ -72,7 +72,37 @@ def turtleLetter(letter,tur):
     	
 
         ## Brian
-
+    elif letter == "P":
+        tur.lt(90)
+        tur.fd(50)
+        tur.rt(90)
+        tur.fd(30)
+        tur.rt(90)
+        tur.fd(30)
+        tur.rt(90)
+        tur.fd(30)
+    elif letter == "Q":
+        tur.lt(90)
+        tur.fd(50)
+        tur.rt(90)
+        tur.fd(30)
+        tur.rt(90)
+        tur.fd(30)
+        tur.rt(90)
+        tur.fd(30)
+        tur.lt(135)
+        tur.fd(25)
+    elif letter == "R":
+	tur.lt(90)
+        tur.fd(50)
+        tur.rt(90)
+        tur.fd(30)
+        tur.rt(90)
+        tur.fd(30)
+        tur.rt(90)
+        tur.fd(30)
+        tur.lt(135)
+        tur.fd(25)
 
         ## Ryan
             elif letter == "G":
