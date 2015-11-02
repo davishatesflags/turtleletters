@@ -31,7 +31,48 @@ def turtleLetter(letter,tur):
         ## Ryan
 	
 	## Hunter
-  
+    elif letter == "Jx":
+	tur.setheading(0)
+	tur.right(90)
+	tur.forward(40)
+	tur.circle(-20,180)
+
+	tur.circle(-20,-180)
+	tur.forward(-40)
+	tur.left(90)
+	tur.pu()
+	tur.forward(10)
+	tur.pd()
+
+    elif letter == "Kx":
+	tur.right(90)
+	tur.forward(60)
+	tur.right(180)
+	tur.forward(30)
+	tur.right(135)
+	tur.forward(45)
+	tur.right(180)
+	tur.forward(45)
+	tur.right(90)
+	tur.forward(45)
+	tur.setheading(0)
+
+
+
+    elif letter == "Lx":
+	tur.pu()
+	tur.forward(10)
+	tur.pd()
+	tur.right(90)
+	tur.forward(60)
+	tur.left(90)
+	tur.forward(30)
+	tur.pu()
+	tur.forward(10)
+	tur.left(90)
+	tur.forward(60)
+	tur.right(90)
+	tur.pd
         
         
     elif letter == "Ax":
