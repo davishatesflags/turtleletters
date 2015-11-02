@@ -11,7 +11,53 @@ def turtleLetter(letter,tur):
         tur.right(90)
         tur.forward(60)
 
-	## Matt 
+    elif letter == "A":
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+        tur.pd()
+        tur.fd(30)
+        tur.right(180)
+        tur.fd(30)
+        tur.right(90)
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(30)
+        tur.right(180)
+        tur.fd(15)
+        tur.left(90)
+        tur.fd(20)
+        tur.pu()
+        tur.setpos(40, 0)
+        
+    elif letter == "C":
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(35)
+        tur.right(90)
+        tur.fd(5)
+        tur.pd()
+        tur.right(90)
+        tur.circle(10,180)
+        tur.pu()
+        tur.setpos(40, 0)
+
+    elif letter == "B":
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+        tur.pd()
+        tur.fd(30)
+        tur.left(90)
+        tur.circle(8,180)
+        tur.right(180)
+        tur.circle(8,180)
+        tur.pu()
+        tur.setpos(40, 0)
 
         
 	## Zach
