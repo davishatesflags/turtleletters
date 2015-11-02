@@ -12,8 +12,7 @@ def turtleLetter(letter,tur):
         tur.forward(60)
 
 	## Matt 
-        ## comments2
-        ## comments3
+
         
 	## Zach
 	
@@ -26,10 +25,10 @@ def turtleLetter(letter,tur):
 	## Addison
     	
 
-    ## Brian
+        ## Brian
 
 
-    ## Ryan
+        ## Ryan
 	
 	## Hunter
   
