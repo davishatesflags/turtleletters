@@ -12,15 +12,7 @@ def turtleLetter(letter,tur):
         tur.forward(60)
 
 	## Matt 
-    if letter=="box":
-        tur.setheading(0)
-        tur.forward(40)
-        tur.right(90)
-        tur.forward(60)
-        tur.right(90)
-        tur.forward(40)
-        tur.right(90)
-        tur.forward(60)
+
 	## Zach
 	
 	## Noah
