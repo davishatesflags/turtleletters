@@ -29,6 +29,63 @@ def turtleLetter(letter,tur):
 
 
         ## Ryan
+            elif letter == "G":
+
+        tur.pu()
+        tur.forward(35)
+        tur.right(90)
+        tur.forward(2.5)
+        tur.right(90)
+        tur.pd()
+        tur.circle(27,180)
+        tur.left(90)
+        tur.forward(30)
+        tur.left(90)
+        tur.forward(10)
+        tur.pu()
+        tur.right(90)
+        tur.forward(27.5)
+        tur.right(90)
+        tur.forward(10)
+        tur.pd()
+
+    elif letter == "H":
+        
+        tur.pu()
+        tur.forward(2.5)
+        tur.right(90)
+        tur.forward(2.5)
+        tur.pd()
+        tur.forward(55)
+        tur.right(180)
+        tur.forward(27.5)
+        tur.right(90)
+        tur.forward(35)
+        tur.right(90)
+        tur.forward(27.5)
+        tur.right(181)
+        tur.forward(55)
+        tur.pu()
+        tur.forward(2.5)
+        tur.right(90)
+        tur.forward(2.5)
+        tur.forward(2.5)
+        tur.pd()
+
+    elif letter == "I":
+
+        tur.pu()
+        tur.forward(20)
+        tur.right(90)
+        tur.forward(2.5)
+        tur.pd()
+        tur.forward(55)
+        tur.right(180)
+        tur.pu()
+        tur.forward(57.5)
+        tur.right(90)
+        tur.forward(20)
+        tur.pd()
 	
 	## Hunter
     elif letter == "Jx":
