@@ -106,7 +106,54 @@ def turtleLetter(letter,tur):
 	## Desmond
 	
 	## Addison
-    	
+    elif letter == "M":
+
+        tur.pendown()
+        tur.right(110)
+        tur.forward(40)
+        tur.penup()
+        tur.left(180)
+        tur.forward(40)
+        tur.pendown()
+        tur.right(140)
+        tur.forward(40)
+        tur.penup()
+        tur.left(140)
+        tur.pendown()
+        tur.fd(40)
+        tur.right(140)
+        tur.fd(40)
+        tur.penup()
+        tur.left(150)
+        tur.fd(40)
+        tur.pendown()
+
+    elif letter == "N":
+
+        tur.pendown()
+        tur.right(90)
+        tur.forward(40)
+        tur.penup()
+        tur.left(180)
+        tur.forward(40)
+        tur.right(150)
+        tur.pendown()
+        tur.forward(45)
+        tur.left(150)
+        tur.fd(40)
+        tur.penup()
+        tur.right(90)
+        tur.pendown()
+       
+        
+    elif letter == "O":
+        tur.pendown()
+        tur.speed(100)
+        tur.circle(40, 360, 40)
+        tur.penup()
+        tur.left(70)
+        tur.fd(80)
+        tur.pendown()
 
         ## Brian
     elif letter == "P":
