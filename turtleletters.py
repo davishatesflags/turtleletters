@@ -63,7 +63,7 @@ def turtleLetter(letter,tur):
 	 
        
             ## zach
-    lif letter == "D":
+    elif letter == "D":
        
             
         tur.pu()
@@ -89,7 +89,7 @@ def turtleLetter(letter,tur):
         tur.right(20)
         tur.forward(30)
 
-    elif letter == "F"
+    elif letter == "F":
         tur.pu()
         tur.forward(20)
         tur.pd()
@@ -130,7 +130,7 @@ def turtleLetter(letter,tur):
         tur.lt(135)
         tur.fd(25)
     elif letter == "R":
-	tur.lt(90)
+        tur.lt(90)
         tur.fd(50)
         tur.rt(90)
         tur.fd(30)
@@ -202,47 +202,47 @@ def turtleLetter(letter,tur):
 	
 	## Hunter
     elif letter == "J":
-	tur.setheading(0)
-	tur.right(90)
-	tur.forward(40)
-	tur.circle(-20,180)
+        tur.setheading(0)
+        tur.right(90)
+        tur.forward(40)
+        tur.circle(-20,180)
 
-	tur.circle(-20,-180)
-	tur.forward(-40)
-	tur.left(90)
-	tur.pu()
-	tur.forward(10)
-	tur.pd()
+        tur.circle(-20,-180)
+        tur.forward(-40)
+        tur.left(90)
+        tur.pu()
+        tur.forward(10)
+        tur.pd()
 
     elif letter == "K":
-	tur.right(90)
-	tur.forward(60)
-	tur.right(180)
-	tur.forward(30)
-	tur.right(135)
-	tur.forward(45)
-	tur.right(180)
-	tur.forward(45)
-	tur.right(90)
-	tur.forward(45)
-	tur.setheading(0)
+        tur.right(90)
+        tur.forward(60)
+        tur.right(180)
+        tur.forward(30)
+        tur.right(135)
+        tur.forward(45)
+        tur.right(180)
+        tur.forward(45)
+        tur.right(90)
+        tur.forward(45)
+        tur.setheading(0)
 
 
 
     elif letter == "L":
-	tur.pu()
-	tur.forward(10)
-	tur.pd()
-	tur.right(90)
-	tur.forward(60)
-	tur.left(90)
-	tur.forward(30)
-	tur.pu()
-	tur.forward(10)
-	tur.left(90)
-	tur.forward(60)
-	tur.right(90)
-	tur.pd
+        tur.pu()
+        tur.forward(10)
+        tur.pd()
+        tur.right(90)
+        tur.forward(60)
+        tur.left(90)
+        tur.forward(30)
+        tur.pu()
+        tur.forward(10)
+        tur.left(90)
+        tur.forward(60)
+        tur.right(90)
+        tur.pd()
         
         
     elif letter == "Ax":
@@ -273,6 +273,10 @@ turtleLetter("K",tur)
 turtleLetter("N",tur)
 turtleLetter("Q",tur)
 turtleLetter("W",tur)
+
+
+window.exitonclick()
+
 
 
 window.exitonclick()
